@@ -44,6 +44,12 @@ header .container .ul-nav {
 header .container .ul-nav li {
   padding-right: 20px;
 }
+
 header .container .ul-nav li .icons-nav {
   color: #5ca720;
+}
+
+main .banner {
+  background: url("/assets/banner.png") no-repeat;
+  height: 100vh;
 }
