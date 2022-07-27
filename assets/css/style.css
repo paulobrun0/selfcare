@@ -76,5 +76,41 @@ main .container .cabecalho-produtos p {
 }
 
 hr {
-  border-bottom: 1px solid #a5a1a1;
+  border-top: 1px solid #a5a1a1;
+}
+
+main .container .ul-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px 0 40px 0;
+}
+
+main .container .ul-produtos li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+main .container .ul-produtos li img {
+  width: 240px;
+  height: 200px;
+}
+
+main .container .ul-produtos li .titulo-produto {
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+main .container .ul-produtos li .preco {
+  color: #5ca720;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .container .ul-produtos li span {
+  color: #161616;
+  padding-right: 4px;
+  font-size: 14px;
 }
