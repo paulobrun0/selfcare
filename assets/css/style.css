@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,6 +39,7 @@ header .container .logo .star {
 
 header .container .logo a {
   color: #161616;
+  font-size: 24px;
 }
 
 header .container .ul-nav {
@@ -51,5 +56,25 @@ header .container .ul-nav li .icons-nav {
 
 main .banner {
   background: url("/assets/banner.png") no-repeat;
-  height: 100vh;
+  height: 60vh;
+}
+
+main .container .cabecalho-produtos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+main .container .cabecalho-produtos h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+main .container .cabecalho-produtos p {
+  font-size: 20px;
+}
+
+hr {
+  border-bottom: 1px solid #a5a1a1;
 }
