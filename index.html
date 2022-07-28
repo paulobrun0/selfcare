@@ -20,9 +20,10 @@
 
             <nav>
                 <ul class="ul-nav">
-                    <li><a href="#"><i class="icons-nav" data-feather="search"></i></a></li>
-                    <li><a href="#"><i class="icons-nav" data-feather="user"></i></a></li>
-                    <li><a href="#"> <i class="icons-nav" data-feather="shopping-cart"></i></a></li>
+                    <li><a href="#" aria-label="search"><i class="icons-nav" data-feather="search"></i></a></li>
+                    <li><a href="#" aria-label="user"><i class="icons-nav" data-feather="user"></i></a></li>
+                    <li><a href="#" aria-label="shopping-cart"> <i class="icons-nav"
+                                data-feather="shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +31,9 @@
 
 
     <main>
-        <div class="banner"></div>
+        <div class="banner">
+            <img src="assets/banner.png" alt="">
+        </div>
 
 
         <div class="container">
@@ -45,62 +48,100 @@
         <div class="container">
             <ul class="ul-produtos">
                 <li>
-                    <img src="/assets/gabrielle-henderson-1DMNn6gBbwQ-unsplash.jpg" alt="">
+                    <img src="assets/gabrielle-henderson-1DMNn6gBbwQ-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/devin-avery-bMH8ub9z1_U-unsplash.jpg" alt="">
+                    <img src="assets/devin-avery-bMH8ub9z1_U-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/devin-avery-BRVqq2uak4E-unsplash.jpg" alt="">
+                    <img src="assets/devin-avery-BRVqq2uak4E-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/nery-montenegro-SmEty_TVr80-unsplash.jpg" alt="">
+                    <img src="assets/nery-montenegro-SmEty_TVr80-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/olena-sergienko-GOVTETevRm8-unsplash.jpg" alt="">
+                    <img src="assets/olena-sergienko-GOVTETevRm8-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
 
                 <li>
-                    <img src="/assets/pharma-hemp-complex-tAzdKblAinw-unsplash.jpg" alt="">
+                    <img src="assets/pharma-hemp-complex-tAzdKblAinw-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/phaedra-botanicals-uFAHrKYkTVI-unsplash.jpg" alt="">
+                    <img src="assets/phaedra-botanicals-uFAHrKYkTVI-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/pharma-hemp-complex-yVAXSK6zFIM-unsplash.jpg" alt="">
+                    <img src="assets/pharma-hemp-complex-yVAXSK6zFIM-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
 
                 <li>
-                    <img src="/assets/chandra-oh-y5hRv6UNKMg-unsplash.jpg" alt="">
+                    <img src="assets/chandra-oh-y5hRv6UNKMg-unsplash.jpg" alt="">
                     <p class="titulo-produto">Lorem ipsum dolor sit</p>
                     <p class="preco"> <span>R$</span>50,00</p>
                 </li>
             </ul>
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <ul class="ul-footer">
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Termos de serviço</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Cancelamento, troca e reembolso</a></li>
+            </ul>
+
+            <form class="rodapePrincipal-contatoForm" action="#">
+                <fieldset>
+                    <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Newsletter
+                    </legend>
+                    <div class="rodapePrincipal-contatoForm-fieldset">
+                        <input class="rodapePrincipal-contatoForm-emailInput" placeholder="Digite seu melhor e-mail"
+                            type="email" name="email-contato" id="email-contato">
+                        <button class="rodapePrincipal-contatoForm-submit" type="submit">Inscrever</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="redes-sociais">
+                <i class="icons-nav" data-feather="instagram"></i>
+                <i class="icons-nav" data-feather="facebook"></i>
+            </div>
+
+            <div class="cartoes">
+                <ul>
+                    <li><img src="assets/cirrus.png" alt=""></li>
+                    <li><img src="assets/paypal.png" alt=""></li>
+                    <li><img src="assets/visto.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
     <script>

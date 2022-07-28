@@ -54,9 +54,9 @@ header .container .ul-nav li .icons-nav {
   color: #5ca720;
 }
 
-main .banner {
-  background: url("/assets/banner.png") no-repeat;
-  height: 60vh;
+main .banner img {
+  width: 100%;
+  height: auto;
 }
 
 main .container .cabecalho-produtos {
@@ -113,4 +113,88 @@ main .container .ul-produtos li span {
   color: #161616;
   padding-right: 4px;
   font-size: 14px;
+}
+
+footer {
+  background: #f9f9f9;
+  border-top: 1px solid #a5a1a1;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+footer .container .ul-footer li {
+  padding-bottom: 10px;
+}
+
+footer .container .ul-footer li a {
+  color: #161616;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rodapePrincipal-contatoForm {
+  outline: 0;
+  border: none;
+}
+
+.rodapePrincipal-contatoForm fieldset {
+  border: 0;
+  padding: 0;
+  margin: 20px 0 0 0;
+  min-width: 0;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+.rodapePrincipal-contatoForm-legend {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+  padding: 10px 0 10px 10px;
+  color: #a5a1a1;
+  width: 300px;
+  border: 1px solid #a5a1a1;
+  border-radius: 4px 0 0 4px;
+  outline: 0;
+}
+
+.rodapePrincipal-contatoForm-submit {
+  border: none;
+  background: #5ca720;
+  color: #ffffff;
+  padding: 0 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+.container .redes-sociais .icons-nav {
+  color: #5ca720;
+  height: 30px;
+  width: 30px;
+}
+
+.container .redes-sociais .icons-nav:last-child {
+  border: 2px solid #5ca720;
+  margin-left: 10px;
+}
+
+.container .cartoes ul {
+  display: flex;
+}
+
+.container .cartoes ul li {
+  padding-right: 10px;
+}
+
+.container .cartoes ul li img {
+  height: 34px;
+  width: 34px;
 }
