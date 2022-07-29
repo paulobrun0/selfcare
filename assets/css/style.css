@@ -173,6 +173,7 @@ footer .container .ul-footer li a {
   color: #ffffff;
   padding: 0 20px;
   border-radius: 0 4px 4px 0;
+  font-weight: bold;
 }
 
 .container .redes-sociais .icons-nav {
@@ -197,4 +198,99 @@ footer .container .ul-footer li a {
 .container .cartoes ul li img {
   height: 34px;
   width: 34px;
+}
+
+@media (max-width: 1000px) and (min-width: 851px) {
+  .container {
+    width: auto;
+    margin: 0 30px;
+  }
+
+  header {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 650px) {
+  .container {
+    width: auto;
+    margin: 0 30px;
+  }
+
+  header {
+    margin: 0 30px;
+  }
+
+  main .container .ul-produtos li:nth-child(odd) {
+    padding-right: 36px;
+  }
+
+  footer .container:first-child {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 649px) and (min-width: 570px) {
+  .container {
+    width: auto;
+    margin: 0 30px;
+  }
+
+  header {
+    margin: 0 30px;
+  }
+
+  footer .container:first-child {
+    flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm-emailInput {
+    width: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .rodapePrincipal-contatoForm-submit {
+    padding: 10px 0;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 569px) {
+  .container {
+    width: auto;
+    margin: 0 10px;
+  }
+
+  header {
+    margin: 0 10px;
+  }
+
+  main .container .ul-produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container:first-child {
+    flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm-emailInput {
+    width: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .rodapePrincipal-contatoForm-submit {
+    padding: 10px 0;
+    border-radius: 4px;
+  }
 }
